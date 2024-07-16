@@ -9,31 +9,29 @@ body {
 header {
     background-color: #039dd4;
     color: white;
-    padding: 1em 0;
+    padding: 2em 0;
     text-align: center;
     position: relative;
     width: 100%;
     clip-path: ellipse(75% 100% at 50% 0%);
 }
 
-header .logo {
-    width: 200px;
-    height: auto;
-    margin-bottom: 1em;
-}
-nav {
-    background-color: #008000;
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin: 10px 0;
 }
 
 nav ul li a {
@@ -44,9 +42,30 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #039dd4;
+    background-color: #008000;
 }
 
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content .logo {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header-content .header-text {
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+}
 section {
     padding: 2em 0;
     text-align: center;
