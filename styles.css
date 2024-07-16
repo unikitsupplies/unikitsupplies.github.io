@@ -12,6 +12,8 @@ header {
     padding: 1em 0;
     text-align: center;
     position: relative;
+    width: 100%;
+    clip-path: ellipse(75% 100% at 50% 0%);
 }
 
 header .logo {
