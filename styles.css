@@ -45,7 +45,7 @@ nav ul li a:hover {
     background-color: #008000;
 }
 
-.hero-content {
+.header-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -53,19 +53,20 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.logo {
-    width: 200px;
+.header-content .logo {
+    width: 150px;
     height: auto;
     margin-right: 20px;
 }
 
-.hero-content .hero-text {
+.header-content .header-text {
     text-align: center;
 }
 
-.hero-content h1 {
+.header-content h1 {
     margin: 0;
 }
+
 section {
     padding: 2em 0;
     text-align: center;
@@ -74,47 +75,35 @@ section {
 .container {
     width: 80%;
     margin: 0 auto;
-}
-
-.container-full {
-    width: 100%;
-}
-
-.grid-xl {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.columns {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.column {
-    padding: 1em;
-}
-
-.card {
+.product-card {
     background-color: white;
     border: 1px solid #ddd;
     padding: 1em;
+    margin: 1em;
     text-align: center;
+    width: calc(33.333% - 2em);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.card-body {
-    padding: 1em 0;
+.product-image {
+    width: 100%;
+    height: auto;
 }
 
-.card h3 {
+.product-card h3 {
     color: #008000;
 }
 
-.card p {
+.product-card p {
     color: #333;
 }
 
-.card .price {
+.product-card .price {
     color: #039dd4;
     font-weight: bold;
 }
