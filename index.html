@@ -21,32 +21,32 @@
     <section id="products">
         <h2>Our Products</h2>
         <div class="product">
-            <img src="images/lab_coat.jpg" alt="Lab Coat">
+            <img src="images/lab_coat.jpg" alt="Lab Coat" class="product-image">
             <h3>Lab Coats</h3>
             <p>High-quality lab coats available in various sizes. Made from a durable cotton/polyester blend for comfort and longevity.</p>
         </div>
         <div class="product">
-            <img src="images/overall.jpg" alt="Overall">
+            <img src="images/overall.jpg" alt="Overall" class="product-image">
             <h3>Overalls</h3>
             <p>Heavy-duty overalls designed for durability and comfort. Available in multiple sizes to fit all needs.</p>
         </div>
         <div class="product">
-            <img src="images/drawing_set.jpg" alt="Drawing Set">
+            <img src="images/drawing_set.jpg" alt="Drawing Set" class="product-image">
             <h3>Drawing Sets</h3>
             <p>Complete drawing sets including compass, protractor, ruler, pencil, and eraser. Perfect for all your drawing needs.</p>
         </div>
         <div class="product">
-            <img src="images/set_square.jpg" alt="Set Square">
+            <img src="images/set_square.jpg" alt="Set Square" class="product-image">
             <h3>Set Squares</h3>
             <p>High-precision set squares in 45-degree and 60-degree angles. Made from transparent plastic for accurate measurements.</p>
         </div>
         <div class="product">
-            <img src="images/t_square.jpg" alt="T-Square">
+            <img src="images/t_square.jpg" alt="T-Square" class="product-image">
             <h3>T-Squares</h3>
             <p>Durable aluminum T-squares available in 24 and 36 inches. Ideal for technical drawing and design work.</p>
         </div>
         <div class="product">
-            <img src="images/scale_rule.jpg" alt="Scale Rule">
+            <img src="images/scale_rule.jpg" alt="Scale Rule" class="product-image">
             <h3>Scale Rules</h3>
             <p>Sturdy scale rules with metric and imperial scales for precise measurements. Perfect for architectural and engineering tasks.</p>
         </div>
@@ -57,11 +57,23 @@
     </section>
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Email: info@prostudents.com</p>
-        <p>Phone: +254 700 000 000</p>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
     </section>
     <footer>
         <p>&copy; 2024 ProStudents. All rights reserved.</p>
     </footer>
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
