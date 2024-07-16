@@ -112,44 +112,22 @@ footer {
     color: white;
 }
 
-#about {
-    background-color: #fff; /* Background color */
-    padding: 2em 0; /* Padding around content */
+.cont-container, .abt-container {
+    background-color: #f4f4f4; /* Background color */
+    padding: 2em; /* Padding around content */
     text-align: center; /* Center align text */
+    margin-bottom: 2em; /* Bottom margin */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
 }
 
-#about h2 {
+.cont-container h2, .abt-container h2 {
     color: #039dd4; /* Heading color */
 }
 
-#about p {
+.cont-container p, .abt-container p {
     font-size: 1.1em; /* Font size for paragraphs */
     color: #333; /* Text color */
-}
-
-#contact {
-    background-color: #f4f4f4;
-    padding: 2em 0;
-    text-align: center;
-}
-
-#contact h2 {
-    color: #039dd4;
-}
-
-#contact p {
-    font-size: 1.1em;
-}
-
-#contact a {
-    color: #039dd4;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-#contact a:hover {
-    color: #008000;
 }
 @media (max-width: 768px) {
     .container {
