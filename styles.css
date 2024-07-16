@@ -55,12 +55,7 @@ nav ul li a:hover {
     text-align: center;
     margin-top: 1em;
 }
-.hero-container {
-    background-color: #006600; /* Background color */
-    color: #006600; /* Text color */
-    padding: 3em; /* Padding around content */
-    text-align: center; /* Center align text */
-}
+
 .hero-container {
     background-color: #f4f4f4; /* Background color */
     padding: 2em; /* Padding around content */
