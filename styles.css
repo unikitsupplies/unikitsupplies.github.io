@@ -55,7 +55,20 @@ nav ul li a:hover {
     text-align: center;
     margin-top: 1em;
 }
+.hero-text {
+    background-color: #039dd4; /* Background color */
+    color: white;
+    padding: 2em; /* Padding around content */
+    text-align: center; /* Center align text */
+}
 
+.hero-text h1 {
+    margin-bottom: 0.5em; /* Bottom margin for the heading */
+}
+
+.hero-text p {
+    margin-bottom: 1em; /* Bottom margin for paragraphs */
+}
 .container {
     width: 80%;
     margin: 0 auto;
