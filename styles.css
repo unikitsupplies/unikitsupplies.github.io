@@ -56,8 +56,7 @@ nav ul li a:hover {
     margin-top: 1em;
 }
 .hero-text {
-    background-color: #039dd4; /* Background color */
-    color: white;
+    color: black;
     padding: 2em; /* Padding around content */
     text-align: center; /* Center align text */
 }
