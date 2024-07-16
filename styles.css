@@ -55,18 +55,21 @@ nav ul li a:hover {
     text-align: center;
     margin-top: 1em;
 }
-.hero-text {
-    color: black;
-    padding: 2em; /* Padding around content */
+.hero-container {
+    background-color: #006600; /* Background color */
+    color: white; /* Text color */
+    padding: 3em; /* Padding around content */
     text-align: center; /* Center align text */
 }
 
 .hero-text h1 {
-    margin-bottom: 0.5em; /* Bottom margin for the heading */
+    font-size: 2.5em; /* Font size for heading 1 */
+    margin-bottom: 0.5em; /* Bottom margin for heading 1 */
 }
 
-.hero-text p {
-    margin-bottom: 1em; /* Bottom margin for paragraphs */
+.hero-text h2 {
+    font-size: 1.5em; /* Font size for heading 2 */
+    margin-bottom: 1em; /* Bottom margin for heading 2 */
 }
 .container {
     width: 80%;
