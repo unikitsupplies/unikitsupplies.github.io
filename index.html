@@ -1,15 +1,24 @@
+---
+layout: default
+title: Home
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProStudents - Trusted Uni Supplier</title>
-    <link rel="stylesheet" href="stylse.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Unikit Supplies Juja</h1>
-        <p>Trusted Uni Supplier</p>
+        <div class="container">
+            <img src="images/1.png" alt="unikit Logo" class="logo">
+            <h1>ProStudents</h1>
+            <p>Trusted by JKUAT Students since 2015</p>
+            <p>Location: JKUAT Juja</p>
+        </div>
     </header>
     <nav>
         <ul>
@@ -19,61 +28,101 @@
         </ul>
     </nav>
     <section id="products">
-        <h2>Our Products</h2>
-        <div class="product">
-            <img src="images/lab_coat.jpg" alt="Lab Coat" class="product-image">
-            <h3>Lab Coats</h3>
-            <p>High-quality lab coats available in various sizes. Made from a durable cotton/polyester blend for comfort and longevity.</p>
-        </div>
-        <div class="product">
-            <img src="images/overall.jpg" alt="Overall" class="product-image">
-            <h3>Overalls</h3>
-            <p>Heavy-duty overalls designed for durability and comfort. Available in multiple sizes to fit all needs.</p>
-        </div>
-        <div class="product">
-            <img src="images/drawing_set.jpg" alt="Drawing Set" class="product-image">
-            <h3>Drawing Sets</h3>
-            <p>Complete drawing sets including compass, protractor, ruler, pencil, and eraser. Perfect for all your drawing needs.</p>
-        </div>
-        <div class="product">
-            <img src="images/set_square.jpg" alt="Set Square" class="product-image">
-            <h3>Set Squares</h3>
-            <p>High-precision set squares in 45-degree and 60-degree angles. Made from transparent plastic for accurate measurements.</p>
-        </div>
-        <div class="product">
-            <img src="images/t_square.jpg" alt="T-Square" class="product-image">
-            <h3>T-Squares</h3>
-            <p>Durable aluminum T-squares available in 24 and 36 inches. Ideal for technical drawing and design work.</p>
-        </div>
-        <div class="product">
-            <img src="images/scale_rule.jpg" alt="Scale Rule" class="product-image">
-            <h3>Scale Rules</h3>
-            <p>Sturdy scale rules with metric and imperial scales for precise measurements. Perfect for architectural and engineering tasks.</p>
+        <div class="container-full">
+            <div class="container grid-xl">
+                <div class="columns">
+                    <div class="column col-12 text-center">
+                        <h6 class="text-secondary">Select a Category</h6>
+                    </div>
+                    <div class="column col-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/lab_coat.jpg" alt="Lab Coat" class="product-image">
+                                <h3>Lab Coat</h3>
+                                <p>High-quality lab coat made from a durable cotton/polyester blend.</p>
+                                <p class="price">KES 1,500</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column col-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/overall.jpg" alt="Overall" class="product-image">
+                                <h3>Overall</h3>
+                                <p>Heavy-duty overall designed for durability and comfort.</p>
+                                <p class="price">KES 2,000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column col-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/drawing_set.jpg" alt="Drawing Set" class="product-image">
+                                <h3>Drawing Set</h3>
+                                <p>Complete drawing set including compass, protractor, ruler, pencil, and eraser.</p>
+                                <p class="price">KES 800</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column col-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/set_square.jpg" alt="Set Square" class="product-image">
+                                <h3>Set Square</h3>
+                                <p>High-precision set square in 45-degree and 60-degree angles.</p>
+                                <p class="price">KES 500</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column col-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/t_square.jpg" alt="T-Square" class="product-image">
+                                <h3>T-Square</h3>
+                                <p>Durable aluminum T-square available in 24 and 36 inches.</p>
+                                <p class="price">KES 1,200</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column col-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/scale_rule.jpg" alt="Scale Rule" class="product-image">
+                                <h3>Scale Rule</h3>
+                                <p>Sturdy scale rule with metric and imperial scales.</p>
+                                <p class="price">KES 300</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section id="about">
-        <h2>About Us</h2>
-        <p>ProStudents is dedicated to providing high-quality educational supplies to university students, helping them excel in their studies and professional development.</p>
+        <div class="container">
+            <h2>About Us</h2>
+            <p>ProStudents is dedicated to providing high-quality educational supplies to university students, helping them excel in their studies and professional development.</p>
+        </div>
     </section>
     <section id="contact">
-        <h2>Contact Us</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </section>
     <footer>
-        <p>&copy; 2024 ProStudents. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 ProStudents. All rights reserved.</p>
+        </div>
     </footer>
-    <div id="lightbox" class="lightbox">
-        <span class="close">&times;</span>
-        <img class="lightbox-content" id="lightbox-img">
-    </div>
     <script src="scripts.js"></script>
 </body>
 </html>
