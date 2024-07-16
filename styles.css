@@ -7,8 +7,10 @@ body {
 }
 
 header {
-    text-align: center;
+    background-color: #039dd4;
+    color: white;
     padding: 1em 0;
+    text-align: center;
     position: relative;
 }
 
@@ -20,11 +22,13 @@ header .logo {
     left: 10px;
 }
 
+nav {
+    background-color: #008000;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
-    overflow: hidden;
-    background-color: #008000;
     text-align: center;
 }
 
@@ -34,7 +38,6 @@ nav ul li {
 }
 
 nav ul li a {
-    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -46,78 +49,63 @@ nav ul li a:hover {
 }
 
 section {
-    padding: 2em;
+    padding: 2em 0;
+    text-align: center;
 }
 
-.product {
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-full {
+    width: 100%;
+}
+
+.grid-xl {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    padding: 1em;
+}
+
+.card {
     background-color: white;
     border: 1px solid #ddd;
     padding: 1em;
-    margin-bottom: 1em;
     text-align: center;
 }
 
-.product img {
-    max-width: 100%;
-    height: auto;
-    cursor: pointer;
+.card-body {
+    padding: 1em 0;
 }
 
-.product h3 {
+.card h3 {
     color: #008000;
 }
 
-.product p {
+.card p {
     color: #333;
 }
 
-.product .price {
+.card .price {
     color: #039dd4;
     font-weight: bold;
-    margin-top: 10px;
 }
 
 footer {
-    text-align: center;
-    padding: 1em 0;
     background-color: #039dd4;
     color: white;
-}
-
-.lightbox {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.9);
-}
-
-.lightbox-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-}
-
-.close {
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
+    padding: 1em 0;
+    text-align: center;
 }
 
 form {
@@ -129,7 +117,7 @@ form {
 }
 
 form label {
-    color: white;
+    color: #333;
     font-weight: bold;
 }
 
@@ -147,7 +135,6 @@ form button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 100%;
 }
 
 form button:hover {
