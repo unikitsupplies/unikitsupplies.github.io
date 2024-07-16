@@ -45,7 +45,7 @@ nav ul li a:hover {
     background-color: #008000;
 }
 
-.header-content {
+.hero-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -53,17 +53,17 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.header-content .logo {
-    width: 150px;
+.logo {
+    width: 300px;
     height: auto;
     margin-right: 20px;
 }
 
-.header-content .header-text {
+.hero-content .hero-text {
     text-align: center;
 }
 
-.header-content h1 {
+.hero-content h1 {
     margin: 0;
 }
 section {
