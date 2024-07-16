@@ -112,6 +112,45 @@ footer {
     color: white;
 }
 
+#about {
+    background-color: #fff; /* Background color */
+    padding: 2em 0; /* Padding around content */
+    text-align: center; /* Center align text */
+}
+
+#about h2 {
+    color: #039dd4; /* Heading color */
+}
+
+#about p {
+    font-size: 1.1em; /* Font size for paragraphs */
+    color: #333; /* Text color */
+}
+
+#contact {
+    background-color: #f4f4f4;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #039dd4;
+}
+
+#contact p {
+    font-size: 1.1em;
+}
+
+#contact a {
+    color: #039dd4;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #008000;
+}
 @media (max-width: 768px) {
     .container {
         grid-template-columns: repeat(2, 1fr);
