@@ -62,13 +62,12 @@ nav ul li a:hover {
     text-align: center; /* Center align text */
     margin: 0 auto; /* Center align horizontally */
     margin-bottom: 2em; /* Bottom margin */
-    max-width: 500px; /* Set maximum width */
+    max-width: 600px; /* Set maximum width */
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
 }
 .hero-text h1 {
-    font-size: 2.5em; /* Font size for heading 1 */
-    margin-bottom: 0.5em; /* Bottom margin for heading 1 */
+    font-size: 2.5em; 
+    margin-bottom: 0.5em; 
     color: #006600;
 }
 
@@ -84,7 +83,11 @@ nav ul li a:hover {
     grid-template-columns: repeat(3, 1fr);
     gap: 2em;
 }
-
+h1 {
+    font-size: 2.5em; 
+    margin-bottom: 0.5em; 
+    color: #006600;
+}
 .product-card {
     background-color: white;
     border: 1px solid #ddd;
