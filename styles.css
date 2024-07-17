@@ -144,6 +144,20 @@ footer {
     font-size: 1.1em; /* Font size for paragraphs */
     color: #333; /* Text color */
 }
+.whatsapp-button {
+    background-color: #25D366; /* Green color similar to WhatsApp logo */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as a button element */
+    cursor: pointer; /* Change cursor to indicate clickability */
+  }
+  
+  .whatsapp-button:hover { /* Button hover effect */
+    background-color: #1C9A4F; /* Darker green on hover */
+  }
 @media (max-width: 768px) {
     .container {
         grid-template-columns: repeat(2, 1fr);
